@@ -1,0 +1,19 @@
+[package]
+name = "abuild-reusesig"
+version = "0.1.0"
+authors = ["kpcyrd <git@rxv.cc>"]
+license = "GPL-3.0"
+repository = "https://github.com/kpcyrd/abuild-reusesig"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.41"
+env_logger = "0.8.4"
+filetime = "0.2.14"
+libflate = "1.1.0"
+log = "0.4.14"
+structopt = "0.3.21"
+tar = "0.4.35"
+tempfile = "3.2.0"
